@@ -343,7 +343,7 @@ textarea {
   margin: 0;
   font-family: inherit;
   font-size: inherit;
-  line-height: inherit;
+  line-height: inherit;d
 }
 
 button,
@@ -2969,7 +2969,7 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #0b5ed7;
+  background-color: #da428d;
   border-color: #0a58ca;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
