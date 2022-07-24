@@ -5,7 +5,9 @@ namespace MyPiizzaRazor.Pages
 {
     public class PizzaModel : PageModel
     {
-        public void OnGet()
+        public PizzaModel Pizza { get; set; }
+
+       public void OnGet()
         {
         }
     }
