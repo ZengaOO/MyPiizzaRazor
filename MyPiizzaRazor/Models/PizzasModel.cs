@@ -1,6 +1,6 @@
-﻿namespace MyPiizzaRazor.Model
+﻿namespace MyPiizzaRazor.Models
 {
-    public class PizzaModel
+    public class PizzasModel
     {
         public string ImageTitle { get; set; }
         public string PizzaName { get; set; }
@@ -8,12 +8,12 @@
         public bool TomatoSauce { get; set; }
         public bool Chese { get; set; }
         public bool Peperoni { get; set; }
-        public bool Muschroom { get; set; }
+        public bool Mushroom { get; set; }
         public bool Tuna { get; set; }
         public bool Pineapple { get; set; }
         public bool Ham { get; set; }
         public bool Beef { get; set; }
-        public float fimalePrice { get; set; }
+        public float FinalPrice { get; set; }
 
 
 
