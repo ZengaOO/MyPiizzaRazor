@@ -23,7 +23,7 @@ namespace MyPiizzaRazor.Pages.Forms
             if (Pizza.Peperoni) PizzaPrice += 1;
             if (Pizza.Margerita) PizzaPrice += 1;
             if (Pizza.Zucchini) PizzaPrice += 1;
-            if (Pizza.Pineapple) PizzaPrice += 1;
+            if (Pizza.Pineapple) PizzaPrice += 10;
             if (Pizza.Beef) PizzaPrice += 1;
 
             return RedirectToPage("/Checkout/Checkout", new { Pizza.PizzaName , PizzaPrice });

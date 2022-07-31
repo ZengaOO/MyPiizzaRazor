@@ -18,7 +18,7 @@ namespace MyPiizzaRazor.Pages.Checkout
             }
             if(string.IsNullOrWhiteSpace(ImageTitle))
             {
-                ImageTitle = "Beef";
+                ImageTitle = "Mini";
             }
         }
     }

@@ -14,8 +14,8 @@ namespace MyPiizzaRazor.Pages
                 BasePrice=2,
                 Tomatte=true,
                 Chese=true,
-                Margerita=true,
-                FinalPrice=4
+                Beef=true,
+                FinalPrice=10
             },
             new PizzasModel(){
                 ImageTitle="Peperoni",
@@ -32,7 +32,7 @@ namespace MyPiizzaRazor.Pages
                 BasePrice=2,
                 Tomatte=true,
                 Chese=true,
-                Margerita=true,
+                Zucchini=true,
                 FinalPrice=7
             },
             new PizzasModel(){
@@ -41,7 +41,7 @@ namespace MyPiizzaRazor.Pages
                 BasePrice=2,
                 Tomatte=true,
                 Chese=true,
-                Zucchini=true,
+                Beef=true,
                 FinalPrice=8
             },
             new PizzasModel(){
@@ -60,18 +60,25 @@ namespace MyPiizzaRazor.Pages
                 Tomatte=true,
                 Chese=true,
                 Peperoni=true,
-                Margerita=true,
                 FinalPrice=12
             },
             new PizzasModel(){
                 ImageTitle="Chese",
                 PizzaName="Chese",
                 BasePrice=2,
-                Tomatte=true,
                 Chese=true,
                 Margerita=true,
                 FinalPrice=14
-            }
+            },
+            new PizzasModel(){
+                ImageTitle="Beef",
+                PizzaName="Beef",
+                BasePrice=2,
+                Tomatte=true,
+                Chese=true,
+                Beef=true,
+                FinalPrice=14
+            },
 
         };
         public void OnGet()
