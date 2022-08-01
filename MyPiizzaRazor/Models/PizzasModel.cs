@@ -1,4 +1,4 @@
-﻿namespace MyPiizzaRazor.Models
+﻿namespace MyPiizzaRazor.Model
 {
     public class PizzasModel
     {

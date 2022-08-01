@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using MyPiizzaRazor.Models;
+using MyPiizzaRazor.Model;
 
 namespace MyPiizzaRazor.Pages
 {
