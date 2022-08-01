@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MyPiizzaRazor.Model;
+using MyPiizzaRazor.Models;
 
 namespace MyPiizzaRazor.Data
 {

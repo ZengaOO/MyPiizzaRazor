@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MyPiizzaRazor.Data;
-using MyPiizzaRazor.Model;
+using MyPiizzaRazor.Models;
 
 namespace MyPiizzaRazor.Pages.Checkout
 {
