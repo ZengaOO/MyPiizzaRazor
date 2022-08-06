@@ -8,30 +8,29 @@ namespace MyPiizzaRazor.Pages.Checkout
     [BindProperties(SupportsGet = true)]
     public class CheckoutModel : PageModel
     {
-       
+
         public string PizzaName { get; set; }
         public float PizzaPrice { get; set; }
         public string ImageTitle { get; set; }
 
-        
+
         private readonly ApplicationDbContext _context;
         public CheckoutModel(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        public void OnGet()
+        public void OnGet(SelectionRezult pizzaOrder)
         {
-            if(string.IsNullOrWhiteSpace(PizzaName))
+            if (string.IsNullOrWhiteSpace(PizzaName))
             {
-                PizzaName= "Custom";
+                PizzaName = "Custom";
             }
-            if(string.IsNullOrWhiteSpace(ImageTitle))
+            if (string.IsNullOrWhiteSpace(ImageTitle))
             {
                 ImageTitle = "Mini";
             }
 
-            SelectionRezult pizzaOrder = new SelectionRezult();
             pizzaOrder.PizzaName = PizzaName;
             pizzaOrder.BasePrice = PizzaPrice;
 

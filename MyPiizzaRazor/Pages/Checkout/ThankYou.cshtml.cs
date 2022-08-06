@@ -5,7 +5,7 @@ namespace MyPiizzaRazor.Pages.Checkout
 {
     public class ThankYouModel : PageModel
     {
-        public PizzaModel Pizza { get; set; }
+        public PizzaModel? Pizza { get; set; }
         public float PizzaPrice { get; set; }
         public void OnGet()
         {

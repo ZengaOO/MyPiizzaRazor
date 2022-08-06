@@ -2,8 +2,8 @@
 {
     public class PizzasModel
     {
-        public string ImageTitle { get; set; }
-        public string PizzaName { get; set; }
+        public string? ImageTitle { get; set; }
+        public string? PizzaName { get; set; }
         public float BasePrice { get; set; } = 2;
         public bool Tomatte { get; set; }
         public bool Chese { get; set; }
