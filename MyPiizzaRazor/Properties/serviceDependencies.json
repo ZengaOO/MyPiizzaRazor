@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "mssql1": {
-      "type": "mssql",
       "connectionId": "ConnectionStrings:DefaultConnection",
-      "dynamicId": null
+      "dynamicId": null,
+      "type": "mssql"
     },
     "secrets1": {
       "type": "secrets",
