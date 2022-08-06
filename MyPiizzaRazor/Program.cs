@@ -9,7 +9,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
      options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-IMvcBuilder mvcBuilder = builder.Services.AddRazorPages();
+builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
