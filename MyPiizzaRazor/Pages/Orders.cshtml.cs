@@ -7,7 +7,7 @@ namespace MyPiizzaRazor.Pages
 {
     public class OrdersModel : PageModel
     {
-        public List<PizzaOrder> PizzaOrders = new List<PizzaOrder>();
+        public List<SelectionRezult> PizzaOrders = new List<SelectionRezult>();
 
         private readonly ApplicationDbContext _context;
         public OrdersModel(ApplicationDbContext context)

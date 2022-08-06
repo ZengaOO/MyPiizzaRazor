@@ -31,7 +31,7 @@ namespace MyPiizzaRazor.Pages.Checkout
                 ImageTitle = "Mini";
             }
 
-            PizzaOrder pizzaOrder = new PizzaOrder();
+            SelectionRezult pizzaOrder = new SelectionRezult();
             pizzaOrder.PizzaName = PizzaName;
             pizzaOrder.BasePrice = PizzaPrice;
 
