@@ -26,7 +26,7 @@ namespace MyPiizzaRazor.Pages.Forms
             if (Pizza.Pineapple) PizzaPrice += 10;
             if (Pizza.Beef) PizzaPrice += 1;
 
-            return RedirectToPage("/Checkout/Checkout", new { Pizza.PizzaName , PizzaPrice });
+            return RedirectToPage("/Checkout/Checkout", new { Pizza.PizzaName, PizzaPrice });
 
         }
     }
