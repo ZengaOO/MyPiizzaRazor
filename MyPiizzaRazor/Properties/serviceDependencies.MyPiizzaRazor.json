@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "connectionId": "ConnectionStrings:DefaultConnection",
+      "dynamicId": null,
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/mypiizzarazordbserver/databases/MyPiizzaRazor_db",
+      "secretStore": "AzureAppSettings",
+      "type": "mssql.azure"
+    },
+    "secrets1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.KeyVault/vaults/MyPiizzaRazorvault",
+      "type": "secrets.keyVault",
+      "connectionId": "VaultUri",
+      "dynamicId": null
+    }
+  }
+}
