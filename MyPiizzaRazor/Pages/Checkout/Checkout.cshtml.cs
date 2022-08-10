@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MyPiizzaRazor.Data;
 using MyPiizzaRazor.Models;
@@ -20,7 +20,7 @@ namespace MyPiizzaRazor.Pages.Checkout
             _context = context;
         }
 
-        public void OnGet(SelectionRezult pizzaOrder)
+        public void OnGet(PizzaOrder pizzaOrder)
         {
             if (string.IsNullOrWhiteSpace(PizzaName))
             {

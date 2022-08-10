@@ -6,7 +6,7 @@ namespace MyPiizzaRazor.Pages
 {
     public class OrdersModel : PageModel
     {
-        public List<SelectionRezult> PizzaOrders = new List<SelectionRezult>();
+        public List<PizzaOrder> PizzaOrders = new List<PizzaOrder>();
 
         private readonly ApplicationDbContext _context;
         public OrdersModel(ApplicationDbContext context)
@@ -15,7 +15,7 @@ namespace MyPiizzaRazor.Pages
         }
 
         public void OnGet()
-        {
+        { 
 
             PizzaOrders = _context.PizzaOrders.ToList();
 
